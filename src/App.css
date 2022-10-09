@@ -21,3 +21,7 @@ input{
 label{
   color: white !important;
 }
+
+#logo{
+  width: 3.7rem;
+}

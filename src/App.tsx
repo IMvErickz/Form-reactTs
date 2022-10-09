@@ -1,4 +1,5 @@
 import { useState } from 'react'
+import Logo from './assets/cadastre-se.png'
 import './App.css'
 
 function NavBar() {
@@ -8,7 +9,7 @@ function NavBar() {
     <header>
        <nav id='nav'>
     <div className="nav-wrapper">
-      <a href="#" className="brand-logo">Formulário</a>
+      <a href="#" className="brand-logo"><img id='logo' src={Logo} alt="" /></a>
       <ul id="nav-mobile" className="right hide-on-med-and-down">
       </ul>
     </div>
