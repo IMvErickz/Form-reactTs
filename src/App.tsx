@@ -29,6 +29,8 @@ function App() {
 
     localStorage.setItem("Pessoa", JSON.stringify(person))
     let rec = JSON.parse(localStorage.getItem("Pessoa"))
+
+    window.location.href = "/pages/form.html"
   }
 
 
