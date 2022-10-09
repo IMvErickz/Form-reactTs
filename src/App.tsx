@@ -6,7 +6,7 @@ function NavBar() {
 
   return (
     <header>
-       <nav>
+       <nav id='nav'>
     <div className="nav-wrapper">
       <a href="#" className="brand-logo">Formulário</a>
       <ul id="nav-mobile" className="right hide-on-med-and-down">
