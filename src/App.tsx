@@ -18,6 +18,19 @@ function NavBar() {
 }
 
 function App() {
+
+  function save() {
+
+    const person = {
+      Nome: document.getElementById("first_name2").value,
+      Sobrenome: document.getElementById("first_name").value 
+    }
+
+    localStorage.setItem("Pessoa", JSON.stringify(person))
+    let rec = JSON.parse(localStorage.getItem("Pessoa"))
+  }
+
+
   return (
     <body>
       <div id='principal'>
@@ -31,13 +44,13 @@ function App() {
       
       <div className="row">
         <div className="input-field col s6">
-          <input id="first_name2" type="text" className="validate" />
+          <input id="first_name" type="text" className="validate" />
           <label className="active" htmlFor="first_name2">Sobrenome</label>
         </div>
           </div>
     </fieldset>
           <div>
-        <a className="waves-effect waves-light btn">Enviar</a>
+        <a className="waves-effect waves-light btn" onClick={save}>Enviar</a>
         </div>
       </div>  
     </body>
