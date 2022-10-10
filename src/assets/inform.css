@@ -1,0 +1,18 @@
+span{
+    color: white;
+}
+
+fieldset{
+    align-items: center;
+    text-align: center;
+    border-radius: 15px;
+    border-color: #04D361;
+}
+
+#logo{
+  width: 3.7rem;
+}
+
+nav{
+  background-color: #1d3363;
+}
