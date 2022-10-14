@@ -23,12 +23,12 @@ function App() {
   function save() {
 
     const person = {
-      Nome: document.getElementById("first_name2").value,
-      Sobrenome: document.getElementById("first_name").value 
+      //Nome: document.getElementById("first_name2").value,
+      //Sobrenome: document.getElementById("first_name").value 
     }
 
     localStorage.setItem("Pessoa", JSON.stringify(person))
-    let rec = JSON.parse(localStorage.getItem("Pessoa"))
+    //let rec = JSON.parse(localStorage.getItem("Pessoa"))
 
     window.location.href = "/pages/form.html"
   }

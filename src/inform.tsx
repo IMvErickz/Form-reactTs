@@ -21,11 +21,11 @@ function App() {
 function bod() {
 
     function show(){
-        let rec = JSON.parse(localStorage.getItem("Pessoa"))
+        //let rec = JSON.parse(localStorage.getItem("Pessoa"))
         let spanName = document.getElementById('name')
         let spanLast = document.getElementById('lastName')
-        spanName.innerHTML = rec.Nome
-        spanLast.innerHTML = rec.Sobrenome
+        //spanName.innerHTML = rec.Nome
+        //spanLast.innerHTML = rec.Sobrenome
 
 
     }
